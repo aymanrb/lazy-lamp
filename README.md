@@ -17,7 +17,7 @@ If you don't have the LAMP server components installed yet and is lazy to manual
 
 #### Usage:
 ```bash
-sudo sh Linux/install-lamp.sh
+sudo bash Linux/install-lamp.sh
 ```
 *The script will prompt you to enter the MySQL passwords*
 
@@ -28,7 +28,7 @@ If you are familiar with Webmin (http://www.webmin.com) and would like to have i
 
 #### Usage:
 ```bash
-sudo sh Linux/install-webmin.sh
+sudo bash Linux/install-webmin.sh
 ```
 
 ## 2. Apache
@@ -40,7 +40,7 @@ Automates the process of adding new sites by creating virtual hosts in your apac
 #### Usage:
 
 ```bash
-sudo sh Apache/create-apache2-site.sh
+sudo bash Apache/create-apache2-site.sh
 ```
 *The script will prompt you to enter few configuration values here, the domain name, path to site root, etc ...*
 
