@@ -42,7 +42,8 @@ echo "<VirtualHost $DomainName:80>
         ServerAdmin $ServerAdminMail
 	<DIRECTORY $SiteDirectory>
 		Options FollowSymLinks
-		AllowOverride None
+		AllowOverride All
+		Require all granted
 	</DIRECTORY>
 </VirtualHost>" | sudo tee /etc/apache2/sites-available/$DomainName.conf > /dev/null
 
