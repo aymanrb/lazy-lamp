@@ -31,6 +31,16 @@ If you are familiar with Webmin (http://www.webmin.com) and would like to have i
 sudo bash Linux/install-webmin.sh
 ```
 
+### 1.3 Install Linux Handy Tools
+#### Script: Linux/install-essntials.sh
+
+A script that automates the installation of VIM and GIT.
+
+#### Usage:
+```bash
+sudo bash Linux/install-essntials.sh
+```
+
 ## 2. Apache
 ### 2.1 New Site Creation
 #### Script: Apache/create-apache2-site.sh
@@ -43,4 +53,33 @@ Automates the process of adding new sites by creating virtual hosts in your apac
 sudo bash Apache/create-apache2-site.sh
 ```
 *The script will prompt you to enter few configuration values here, the domain name, path to site root, etc ...*
+
+
+## 3. MySQL
+### 3.1 Database Backup
+#### Script: Mysql/full-backup.sh
+
+Automates the dumping of the whole MySQL database in one since command and stores the dumped files on a local directory
+
+#### Usage:
+
+```bash
+sudo bash Mysql/full-backup.sh
+```
+
+## 4. PHP
+### 4.1 Install Useful PHP5 Modules
+#### Script: Mysql/install_modules.sh
+
+Installs PHP modules like Curl and Imap
+
+#### Usage:
+
+```bash
+sudo bash Mysql/install_modules.sh
+```
+
+
+
+
 
