@@ -1,4 +1,4 @@
-#!/bin/bash
+\#!/bin/bash
 #
 # Script to automate the installation of Apache, PHP5, MySQl and PhpMyAdmin
 #
@@ -15,7 +15,7 @@ sudo apt-get -y install apache2
 echo "Installing PHP5 ..."
 sudo apt-get -y install php5 libapache2-mod-php5
 
-echo "Retarting Apache2 Server ..."
+echo "Restarting Apache2 Server ..."
 sudo /etc/init.d/apache2 restart
 
 echo "Installing MySQL Server"
