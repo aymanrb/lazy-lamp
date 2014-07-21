@@ -1,4 +1,4 @@
-\#!/bin/bash
+#!/bin/bash
 #
 # Script to automate the installation of Apache, PHP5, MySQl and PhpMyAdmin
 #
@@ -29,7 +29,7 @@ sudo apt-get install phpmyadmin
 echo "#Phpmyadmin
 Include /etc/phpmyadmin/apache.conf" | sudo tee -a /etc/apache2/apache2.conf > /dev/null
 
-echo "Retarting Apache2 Server ..."
+echo "Restarting Apache2 Server ..."
 sudo /etc/init.d/apache2 restart
 
 echo "You can now access your local apache server @ http://localhost & PhpMyadmin @ http://localhost/phpmyadmin"
