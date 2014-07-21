@@ -6,7 +6,7 @@
 #
 sudo -v
 
-read -p "Enter the password for the root MySQL username (e.g. root): " MySqlPass
+read -p "Enter the password you desire for the root MySQL username (e.g. root): " MySqlPass
 
 echo "Installing apache2 ..."
 sudo apt-get update
