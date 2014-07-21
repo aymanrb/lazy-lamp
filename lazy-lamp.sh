@@ -42,10 +42,10 @@ L1) echo ".$PWD/Linux/install-lamp.sh"
 	sudo bash $PWD/Linux/install-lamp.sh
     ;;
 L2) echo ".$PWD/Linux/install-webmin.sh"
-	sudo bash $PWD/Linux/install-lamp.sh
+	sudo bash $PWD/Linux/install-webmin.sh
     ;;
 L3) echo ".$PWD/Linux/install-essntials.sh"
-	sudo bash $PWD/Linux/install-lamp.sh
+	sudo bash $PWD/Linux/install-essntials.sh
     ;;
 A1) echo ".$PWD/Apache/create-apache2-site.sh"
 	sudo bash $PWD/Apache/create-apache2-site.sh
