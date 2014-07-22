@@ -11,7 +11,7 @@ These script assumes few things up:
 ### Install:
 
 1. Check a clone of this repo: `git clone https://github.com/aymanrb/lazy-lamp.git`
-2. Run `alias lazy-lamp="sudo bash $PWD/lazy-lamp/lazy-lamp.sh";` (To create an easy access alias of the main script)
+2. Run `echo 'alias lazy-lamp="sudo bash $PWD/lazy-lamp/lazy-lamp.sh"' | tee -a ~/.bashrc` (To create an easy access alias of the main script, if you are using ZSH instead of bash you should replace the file with `~/.zshrc` instead of ~/.bashrc)
 3. Run `sudo lazy-lamp` and select your desired script.
 
 ### Usage:
