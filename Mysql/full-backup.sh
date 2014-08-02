@@ -8,7 +8,7 @@
 sudo -v
 
 read -p "Enter the username of your MySQL Database (e.g. admin): " MySqlUsername
-echo -n "Enter the password for the root MySQL username[$MySqlUsername] (e.g. AdminPsswd): "
+echo -n "Enter the password for the MySQL user[$MySqlUsername] (e.g. AdminPsswd): "
 read -s MySqlPass
 
 
