@@ -23,7 +23,8 @@ LAMP Scripts to Choose From:
 
 [M]ySQL:
 	1- Create a Full Backup
-	2- Create a New Database [N/A]
+	2- Create a New MySQL Database
+	3- Create a New MySQL User
 
 [P]hp:
 	1- Install Handy Modules (CURL | IMAP)
@@ -52,6 +53,12 @@ A1) echo ".$PWD/Apache/create-apache2-site.sh"
     ;;
 M1) echo ".$PWD/Mysql/full-backup.sh"
 	sudo bash $PWD/Mysql/full-backup.sh
+    ;;
+M2) echo ".$PWD/Mysql/create-new-db.sh"
+	sudo bash $PWD/Mysql/create-new-db.sh
+    ;;
+M3) echo ".$PWD/Mysql/create-new-user.sh"
+	sudo bash $PWD/Mysql/create-new-user.sh
     ;;
 P1) echo ".$PWD/Php/create-apache2-site.sh"
 	sudo bash $PWD/Php/install_modules.sh

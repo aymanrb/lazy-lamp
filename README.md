@@ -39,9 +39,17 @@ A script that automates the installation of VIM and GIT.
 Automates the process of adding new sites by creating virtual hosts in your apache2 server configurations, activates it and adds the new site's domain to the hosts file of your system.
 
 ## [M]ySQL
-### M1. Database Backup:
+### M1. Full MySQL Database Backup:
 
 Automates the dumping of the whole MySQL database in one since command and stores the dumped files on a local directory
+
+### M2. Create a New Database:
+
+Creates a new empty MySQL database
+
+### M3. Create a New User:
+
+Creates a new MySQL user and grants this user global 'ALL PRIVILEGES'
 
 ## [P]HP
 ### P1. Install Useful PHP5 Modules:
