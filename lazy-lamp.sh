@@ -6,6 +6,8 @@
 #
 sudo -v
 
+ScriptBaseDir=`dirname "$BASH_SOURCE"`
+
 echo "
 
 ** Welcome to the Lazy-LAMP for Lazy Developers ! **
@@ -39,29 +41,29 @@ fi
 
 case "$UserChoice" in
 
-L1) echo ".$PWD/Linux/install-lamp.sh"
-	sudo bash $PWD/Linux/install-lamp.sh
+L1) echo ".$ScriptBaseDir/Linux/install-lamp.sh"
+	sudo bash $ScriptBaseDir/Linux/install-lamp.sh
     ;;
-L2) echo ".$PWD/Linux/install-webmin.sh"
-	sudo bash $PWD/Linux/install-webmin.sh
+L2) echo ".$ScriptBaseDir/Linux/install-webmin.sh"
+	sudo bash $ScriptBaseDir/Linux/install-webmin.sh
     ;;
-L3) echo ".$PWD/Linux/install-essntials.sh"
-	sudo bash $PWD/Linux/install-essntials.sh
+L3) echo ".$ScriptBaseDir/Linux/install-essntials.sh"
+	sudo bash $ScriptBaseDir/Linux/install-essntials.sh
     ;;
-A1) echo ".$PWD/Apache/create-apache2-site.sh"
-	sudo bash $PWD/Apache/create-apache2-site.sh
+A1) echo ".$ScriptBaseDir/Apache/create-apache2-site.sh"
+	sudo bash $ScriptBaseDir/Apache/create-apache2-site.sh
     ;;
-M1) echo ".$PWD/Mysql/full-backup.sh"
-	sudo bash $PWD/Mysql/full-backup.sh
+M1) echo ".$ScriptBaseDir/Mysql/full-backup.sh"
+	sudo bash $ScriptBaseDir/Mysql/full-backup.sh
     ;;
-M2) echo ".$PWD/Mysql/create-new-db.sh"
-	sudo bash $PWD/Mysql/create-new-db.sh
+M2) echo ".$ScriptBaseDir/Mysql/create-new-db.sh"
+	sudo bash $ScriptBaseDir/Mysql/create-new-db.sh
     ;;
-M3) echo ".$PWD/Mysql/create-new-user.sh"
-	sudo bash $PWD/Mysql/create-new-user.sh
+M3) echo ".$ScriptBaseDir/Mysql/create-new-user.sh"
+	sudo bash $ScriptBaseDir/Mysql/create-new-user.sh
     ;;
-P1) echo ".$PWD/Php/create-apache2-site.sh"
-	sudo bash $PWD/Php/install_modules.sh
+P1) echo ".$ScriptBaseDir/Php/create-apache2-site.sh"
+	sudo bash $ScriptBaseDir/Php/install_modules.sh
     ;;
 *) echo "Unknown or missing Lazy-LAMP script '$UserChoice'" 
    ;;
