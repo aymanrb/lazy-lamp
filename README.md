@@ -33,6 +33,10 @@ If you are familiar with Webmin (http://www.webmin.com) and would like to have i
 
 A script that automates the installation of VIM and GIT.
 
+### L4. Change DNS Server:
+
+A script that helps in changing the machine's DNS server to a list of Free ones. (Google, OpenDNS, DnsWatch, etc ...)
+
 ## [A]pache
 ### A1. New Site Creation:
 

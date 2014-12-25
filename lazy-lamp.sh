@@ -18,6 +18,7 @@ LAMP Scripts to Choose From:
 	1- Install Environment (Apache2 | PHP5 | MySQL)
 	2- Install Webmin Panel
 	3- Install Essntial Tools (VIM | GIT)
+	4- Change Machine's DNS Server
 
 [A]pache:
 	1- Create a new website
@@ -49,6 +50,9 @@ L2) echo ".$ScriptBaseDir/Linux/install-webmin.sh"
     ;;
 L3) echo ".$ScriptBaseDir/Linux/install-essntials.sh"
 	sudo bash $ScriptBaseDir/Linux/install-essntials.sh
+    ;;
+L4) echo ".$ScriptBaseDir/Linux/change-dns.sh"
+	sudo bash $ScriptBaseDir/Linux/change-dns.sh
     ;;
 A1) echo ".$ScriptBaseDir/Apache/create-apache2-site.sh"
 	sudo bash $ScriptBaseDir/Apache/create-apache2-site.sh
