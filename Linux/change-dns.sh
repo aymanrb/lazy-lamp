@@ -48,8 +48,10 @@ Applying your selection. (${serverIndex[$applyServer]} Server(s))
 .........................
 "
 
-echo "nameserver ${servers["${serverIndex[$applyServer]}.primary"]}" | sudo tee /etc/resolv.conf
-echo "nameserver ${servers["${serverIndex[$applyServer]}.secondary"]}" | sudo tee -a /etc/resolv.conf
+echo "nameserver ${servers["${serverIndex[$applyServer]}.primary"]}" | sudo tee /etc/resolvconf/resolv.conf.d/head
+echo "nameserver ${servers["${serverIndex[$applyServer]}.secondary"]}" | sudo tee -a /etc/resolvconf/resolv.conf.d/head
+
+sudo resolvconf -u
 
 echo "DNS Changes applied successfully !"
 
