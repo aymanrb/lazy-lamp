@@ -1,6 +1,6 @@
 # Linux, Apache, MySQL, PHP (LAMP) tasks automation scripts
 
-If you are a "Lazy LAMP" developer who wants to run few script to get things, then this repository is for your. This is a collection of few scripts (that I'll keep adding to) that automates few installation commands and tasks for your LAMP environment.
+If you are a "Lazy LAMP" developer who wants to run few script to get things done with no pain, then this repository is for you. This is a collection of few scripts (that I'll keep adding to) that automates few installation commands and tasks for your LAMP environment.
 
 These script assumes few things up:
 
