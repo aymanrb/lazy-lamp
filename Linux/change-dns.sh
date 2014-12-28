@@ -28,8 +28,6 @@ serverIndex[3]="OpenDNS"
 serverIndex[4]="NortonConnectSafe"
 serverIndex[5]="ComodoSecure"
 
-
-
 for i in "${!serverIndex[@]}"
 do
   echo "Code: '$i' from ${serverIndex[$i]}"
