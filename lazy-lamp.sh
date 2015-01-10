@@ -23,6 +23,7 @@ LAMP Scripts to Choose From:
 [A]pache:
 	1- Create a new website
 	2- Install / Enable Essential Modules [N/A]
+	3- Clear Google Pagespeed Module Cache
 
 [M]ySQL:
 	1- Create a Full Backup
@@ -56,6 +57,9 @@ L4) echo ".$ScriptBaseDir/Linux/change-dns.sh"
     ;;
 A1) echo ".$ScriptBaseDir/Apache/create-apache2-site.sh"
 	sudo bash $ScriptBaseDir/Apache/create-apache2-site.sh
+    ;;
+A3) echo ".$ScriptBaseDir/Apache/clear-pagespeed-cache.sh"
+	sudo bash $ScriptBaseDir/Apache/clear-pagespeed-cache.sh
     ;;
 M1) echo ".$ScriptBaseDir/Mysql/full-backup.sh"
 	sudo bash $ScriptBaseDir/Mysql/full-backup.sh
