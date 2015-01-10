@@ -3,6 +3,7 @@
 # Clears the Google Apache Mod-PageSpeed cache automtically 
 #
 # @aymanrb - 2015 / 01 / 10
+# Inspired by: http://benohead.com/mod_pagespeed-clear-the-cache/
 #
 
 sudo -v
