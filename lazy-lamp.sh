@@ -19,6 +19,7 @@ LAMP Scripts to Choose From:
 	2- Install Webmin Panel
 	3- Install Essntial Tools (VIM | GIT)
 	4- Change Machine's DNS Server
+	5- Install 'Oh-my-Zsh'
 
 [A]pache:
 	1- Create a new website
@@ -54,6 +55,10 @@ L3) echo ".$ScriptBaseDir/Linux/install-essntials.sh"
     ;;
 L4) echo ".$ScriptBaseDir/Linux/change-dns.sh"
 	sudo bash $ScriptBaseDir/Linux/change-dns.sh
+    ;;
+
+L5) echo ".$ScriptBaseDir/Linux/install-oh-my-zsh.sh"
+        sudo bash $ScriptBaseDir/Linux/install-oh-my-zsh.sh
     ;;
 A1) echo ".$ScriptBaseDir/Apache/create-apache2-site.sh"
 	sudo bash $ScriptBaseDir/Apache/create-apache2-site.sh

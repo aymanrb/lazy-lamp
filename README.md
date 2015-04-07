@@ -37,6 +37,12 @@ A script that automates the installation of VIM and GIT.
 
 A script that helps in changing the machine's DNS server to a list of Free ones. (Google, OpenDNS, DnsWatch, etc ...)
 
+### L5. Install oh-my-zsh shell:
+
+A script that helps in installing oh-my-zsh shell (http://www.ohmyz.sh/)
+
+
+
 ## [A]pache
 ### A1. New Site Creation:
 
