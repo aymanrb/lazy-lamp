@@ -43,9 +43,11 @@ A script that helps in changing the machine's DNS server to a list of Free ones.
 Automates the process of adding new sites by creating virtual hosts in your apache2 server configurations, activates it and adds the new site's domain to the hosts file of your system.
 
 ### A2. Install and Enable Basic Modules
-*** Not yet implemented ***
+
+A script that automates the process of installing the basic apache2 modules
 
 ### A3. Clear Pagespeed Cache
+
 Automates the process of flushing up the cache directories of the Google PageSpeed apache module.
 
 ## [M]ySQL
