@@ -14,6 +14,10 @@ sudo apt-get install php5-curl
 echo "Installing IMAP function for PHP ..."
 sudo apt-get install php5-imap
 
+echo "Installing Mcrypt"
+sudo apt-get install mcrypt php5-mcrypt
+sudo php5enmod mcrypt
+
 echo "Restarting Apache2 Server ..."
 sudo /etc/init.d/apache2 restart
 
