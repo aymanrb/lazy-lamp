@@ -17,10 +17,6 @@ wget https://dl-ssl.google.com/dl/linux/direct/mod-pagespeed-stable_current_amd6
 apt-get -f install
 dpkg -i mod-pagespeed-*.deb
 
-echo "Installing Mcrypt"
-sudo apt-get install mcrypt php5-mcrypt
-sudo php5enmod mcrypt
-
 echo "Restarting Apache2 Service"
 sudo service apache2 restart
 
