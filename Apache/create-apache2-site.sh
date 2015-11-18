@@ -32,7 +32,7 @@ if [ -d /etc/apache2/sites-available/$DomainName ]; then
 fi
 
 echo "Creating Apache Site Configuration File"
-echo "<VirtualHost $DomainName:80>
+echo "<VirtualHost *:80>
         ServerName $DomainName
         ServerAlias www.$DomainName
         DocumentRoot $SiteDirectory
