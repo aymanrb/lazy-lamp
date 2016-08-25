@@ -31,7 +31,7 @@ If you are familiar with Webmin (http://www.webmin.com) and would like to have i
 
 ### L3. Install Linux Handy Tools:
 
-A script that automates the installation of VIM and GIT.
+A script that automates the installation of Vim, Curl, Composer and GIT.
 
 ### L4. Change DNS Server:
 
