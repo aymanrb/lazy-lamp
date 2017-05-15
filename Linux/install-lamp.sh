@@ -13,7 +13,7 @@ sudo apt-get update
 sudo apt-get -y install apache2
 
 echo "Installing PHP5 ..."
-sudo apt-get -y install php5 libapache2-mod-php5
+sudo apt-get -y install php7.0 libapache2-mod-php7.0
 
 echo "Restarting Apache2 Server ..."
 sudo /etc/init.d/apache2 restart
