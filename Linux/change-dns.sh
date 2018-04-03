@@ -22,7 +22,7 @@ servers["ComodoSecure.primary"]="8.26.56.26"
 servers["ComodoSecure.secondary"]="8.20.247.20"
 
 servers["Cloudflare.primary"]="1.1.1.1"
-servers["Cloudflare.secondary"]= "1.0.0.1"
+servers["Cloudflare.secondary"]="1.0.0.1"
 
 
 declare -A serverIndex
