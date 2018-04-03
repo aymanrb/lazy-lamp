@@ -21,12 +21,18 @@ servers["NortonConnectSafe.secondary"]="199.85.127.30"
 servers["ComodoSecure.primary"]="8.26.56.26"
 servers["ComodoSecure.secondary"]="8.20.247.20"
 
+servers["Cloudflare.primary"]="1.1.1.1"
+servers["Cloudflare.secondary"]= "1.0.0.1"
+
+
 declare -A serverIndex
 serverIndex[1]="Google"
 serverIndex[2]="DnsWatch"
 serverIndex[3]="OpenDNS"
 serverIndex[4]="NortonConnectSafe"
 serverIndex[5]="ComodoSecure"
+serverIndex[6]="Cloudflare"
+
 
 for i in "${!serverIndex[@]}"
 do
