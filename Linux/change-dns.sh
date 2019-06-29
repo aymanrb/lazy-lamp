@@ -15,8 +15,8 @@ servers["DnsWatch.secondary"]="84.200.70.40"
 servers["OpenDNS.primary"]="208.67.222.222"
 servers["OpenDNS.secondary"]="208.67.220.220"
 
-servers["NortonConnectSafe.primary"]="199.85.126.30"
-servers["NortonConnectSafe.secondary"]="199.85.127.30"
+servers["OpenDNSFamilyShield.primary"]="208.67.222.123"
+servers["OpenDNSFamilyShield.secondary"]="208.67.220.123"
 
 servers["ComodoSecure.primary"]="8.26.56.26"
 servers["ComodoSecure.secondary"]="8.20.247.20"
@@ -29,7 +29,7 @@ declare -A serverIndex
 serverIndex[1]="Google"
 serverIndex[2]="DnsWatch"
 serverIndex[3]="OpenDNS"
-serverIndex[4]="NortonConnectSafe"
+serverIndex[4]="OpenDNSFamilyShield"
 serverIndex[5]="ComodoSecure"
 serverIndex[6]="Cloudflare"
 
